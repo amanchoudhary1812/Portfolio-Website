@@ -176,6 +176,11 @@ section {
   margin: auto 0;
 }
 
+.round-image {
+  border-radius: 2rem; /* Rounded corners */
+  overflow: hidden; /* Ensures the image respects the border-radius */
+}
+
 .section__text {
   align-self: center;
   text-align: center;
